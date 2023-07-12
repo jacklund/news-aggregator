@@ -1,0 +1,15 @@
+[package]
+name = "news-aggregator"
+version = "0.1.0"
+authors = ["Jack Lund <jackl@geekheads.net>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.71"
+futures = "0.3.28"
+megalodon = "0.8.6"
+rss = "2.0.4"
+tokio = { version = "1.29.1", features = ["sync", "macros", "io-util", "rt", "time"] }
+uuid = { version = "1.4.0", features = ["v3", "v4"] }
+openssl-sys = { version = "0.9.90", features = ["bindgen"] }
+reqwest = "0.11.18"
