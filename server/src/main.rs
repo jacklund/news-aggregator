@@ -1,4 +1,4 @@
-use news_aggregator::{feed, NewsAggregator};
+use news_aggregator_server::{feed, NewsAggregator};
 
 #[tokio::main]
 async fn main() {
